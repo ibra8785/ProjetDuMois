@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Acceuil</title>
+	<link rel="stylesheet" type="text/css" href="accueil.css">
+	<link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+	<script src="node_modules/jquery/dist/jquery.min.js" ></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="Ibra">
+			<h1>Ibra<span>Sport</span></h1>
+		</div>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li><a href="acceuil.html">Acceuil</a></li>
+					<li><a href="football.php">Football</a></li>
+					<li><a href="rugby.php">Rugby</a></li>
+					<li><a href="tennis.php">Tennis</a></li>
+					<li><a href="basket.php">Basketball</a></li>
+					<!-- li><a href="admin/connexion.html">Connexion</a></li> -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+		<section class="section">
+			<div id="monCarousel" class="carousel slide" data-ride="carousel" style="max-width: 1000px;margin: auto;">
+        <ol class="carousel-indicators">
+          <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#monCarousel" data-slide-to="1"></li>
+          <li data-target="#monCarousel" data-slide-to="2"></li>
+          <li data-target="#monCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="football.php"><img src="images/foot.jpg"  alt="..." height="650px" width="1000px;"></a>
+            <div class="carousel-caption">
+              <h2>FOOTBALL</h2>
+              <p>Decouvrez toute l'actualite du Football ici.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="rugby.php"><img src="images/rugby.jpeg" alt="..." height="650px" width="1000px;"></a>
+            <div class="carousel-caption">
+              <h2>RUGBY</h2>
+              <p>Decouvrez toute l'actualite du Rugby ici.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="tennis.php"><img src="images/tennis.jpg" alt="..." height="650px" width="1000px;"></a>
+            <div class="carousel-caption">
+              <h2>TENNIS</h2>
+              <p>Decouvrez toute l'actualite du Tennis ici.</p>
+            </div>
+          </div>
+           <div class="carousel-item">
+            <a href="basket.php"><img src="images/basket.jpg" alt="..." height="650px" width="1000px;"></a>
+            <div class="carousel-caption">
+              <h2>BASKETBALL</h2>
+              <p>Decouvrez toute l'actualite du Basketball ici.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#monCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#monCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+		</section>
+		<footer id="footer">
+			<p>&copy Copyright IbraSport 2020</p>
+      <div>
+        <p>Rejoignez Nous Sur</p>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+      </div>
+		</footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*
+{
+	font-family: times;
+}
+/* ___________ HEADER ___________ */
+
+header
+{
+    background-color: rgba(0,0,0,0.88);
+    height: 70px;
+    padding-top: 15px;
+    font-size: 17px;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-left: 183px;
+}
+header span
+{
+	color: yellow;
+}
+header h1
+{
+	display: flex;
+	flex-flow: row;
+	float: left;
+	color: white;
+	margin-top: 1px;
+	margin-left: 50px;
+}
+nav ul
+{
+	list-style: none;
+	margin-right: 20px;
+	float: right;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 25px;
+	
+}
+nav ul li:hover
+{
+	background-color: yellow;
+}
+nav ul li a
+{
+	text-transform: none;
+	text-decoration: none;
+	color: white;
+}
+/* ___________ SECTION ACTUP ___________ */
+
+#actup
+{
+
+}
+#actup div
+{
+	margin-left: 183px;
+	width: 1000px;
+}
+#actup .titre h1
+{
+	font-weight: bold;
+}
+#actup .titre p
+{
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 50px;
+}
+/* ___________ SECTION TABLE ___________ */
+
+#infos
+{
+	padding-top: 25px;
+	width: 1000px;
+	margin-left: 183px;
+}
+#infos div
+{
+	float: left;
+	margin-right: 49px;
+	text-align: center;
+	margin-left: 32px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+/* ___________ FOOTER ___________ */
+
+#footer
+{
+	margin-top: 15px;
+	text-align: center;
+	background-color: black;
+	width: 1000px;
+	margin-left: 176px;
+	clear: both;
+}
+#footer p
+{
+	font-size: 25px;
+	color: white;
+}
+#footer a
+{
+	margin-right: 20px;
+}

@@ -1,0 +1,84 @@
+*
+{
+	font-family: times;
+}
+/* ___________ HEADER ___________ */
+
+header
+{
+    background-color: rgba(0,0,0,0.88);
+    height: 70px;
+    padding-top: 15px;
+    font-size: 17px;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-left: 176px;
+}
+header span
+{
+	color: yellow;
+}
+header h1
+{
+	display: flex;
+	flex-flow: row;
+	float: left;
+	color: white;
+	margin-top: 1px;
+	margin-left: 50px;
+}
+nav ul
+{
+	list-style: none;
+	margin-right: 20px;
+	float: right;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 25px;
+	
+}
+nav ul li:hover
+{
+	background-color: yellow;
+}
+nav ul li a
+{
+	text-transform: none;
+	text-decoration: none;
+	color: white;
+}
+/* ___________ SECTION ___________ */
+
+.section
+{
+	clear: both;
+	border-bottom: 2px solid #ddd;
+}
+.section .carousel-caption
+{
+	font-size: 35px;
+	font-weight: bold;
+}
+/* ___________ FOOTER ___________ */
+
+#footer
+{
+	margin-top: 15px;
+	text-align: center;
+	background-color: black;
+	width: 1000px;
+	margin-left: 176px;
+}
+#footer p
+{
+	font-size: 25px;
+	color: white;
+}
+#footer a
+{
+	margin-right: 20px;
+}

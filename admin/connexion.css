@@ -1,0 +1,109 @@
+*
+{
+	font-family: times;
+}
+/* ___________ HEADER ___________ */
+
+header
+{
+    background-color: rgba(0,0,0,0.88);
+    height: 70px;
+    padding-top: 15px;
+    font-size: 17px;
+    width: 1000px;
+    
+    margin-left: 183px;
+}
+header span
+{
+	color: yellow;
+}
+header h1
+{
+	display: flex;
+	flex-flow: row;
+	float: left;
+	color: white;
+	margin-top: 1px;
+	margin-left: 50px;
+}
+nav ul
+{
+	list-style: none;
+	margin-right: 20px;
+	float: right;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 25px;
+	
+}
+nav ul li:hover
+{
+	background-color: yellow;
+}
+nav ul li a
+{
+	text-transform: none;
+	text-decoration: none;
+	color: white;
+}
+
+/* ___________ FORM ___________ */
+
+form
+{
+	clear: both;
+	font-family: arial;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 400px;
+}
+fieldset
+{
+	background-color: #AFEEEE;
+	width: 500px;
+	height: 300px;
+}
+legend
+{
+	font-size: 30px;
+}
+label
+{
+	font-size: 30px;
+}
+.input
+{
+	font-size: 30px;
+	border-radius: 15px;
+}
+.submit
+{
+	font-size: 30px;
+	background-color: yellow;
+	border-radius: 15px;
+	margin-top: 20px;
+
+}
+/* ___________ FOOTER ___________ */
+
+#footer
+{
+	clear: both;
+	margin-top: 15px;
+	text-align: center;
+	background-color: black;
+	width: 1000px;
+	margin-left: 176px;
+}
+#footer p
+{
+	font-size: 25px;
+	color: white;
+}
+#footer a
+{
+	margin-right: 20px;
+}
